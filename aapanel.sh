@@ -31,7 +31,7 @@ chattr +i /www/server/panel/data/plugin.json
 chattr -i /www/server/panel/data/repair.json
 rm /www/server/panel/data/repair.json
 cd /www/server/panel/data
-wget https://raw.githubusercontent.com/ninhph96/apanel/refs/heads/main/resource/repair.json
+wget https://raw.githubusercontent.com/ninhph96/aapanel/main/resource/repair.json
 chattr +i /www/server/panel/data/repair.json
 red "cracked successfully."
 }
